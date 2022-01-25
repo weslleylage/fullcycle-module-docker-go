@@ -2,7 +2,5 @@ version: "3.7"
 services:
   appgo:
     build: .
-    image: weslleylage/module-docker-go
-    container_name: module-docker-go
-    ports:
-      - "8080:80"
+    image: weslleylage/fullcycle-module-docker-go
+    container_name: fullcycle-module-docker-go
